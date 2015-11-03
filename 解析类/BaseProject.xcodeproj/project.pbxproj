@@ -22,6 +22,13 @@
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		856D938A1BE838D500D4218A /* GiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D93891BE838D500D4218A /* GiftModel.m */; };
+		856D938D1BE8399B00D4218A /* RunesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D938C1BE8399B00D4218A /* RunesModel.m */; };
+		856D93901BE83A0200D4218A /* SumAbilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D938F1BE83A0200D4218A /* SumAbilityModel.m */; };
+		856D93931BE83A1C00D4218A /* BestGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D93921BE83A1C00D4218A /* BestGroupModel.m */; };
+		856D93961BE8494A00D4218A /* TuWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D93951BE8494A00D4218A /* TuWanNetManager.m */; };
+		856D93991BE8495A00D4218A /* DuoWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D93981BE8495A00D4218A /* DuoWanNetManager.m */; };
+		856D939C1BE8496E00D4218A /* XiMaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D939B1BE8496E00D4218A /* XiMaNetManager.m */; };
 		85B0AE8C1BE777C7009BED31 /* TuWanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B0AE8B1BE777C7009BED31 /* TuWanModel.m */; };
 		85B0AE8F1BE77915009BED31 /* RankingListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B0AE8E1BE77915009BED31 /* RankingListModel.m */; };
 		85B0AE921BE77AEB009BED31 /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B0AE911BE77AEB009BED31 /* AlbumModel.m */; };
@@ -71,6 +78,20 @@
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		856D93881BE838D500D4218A /* GiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftModel.h; sourceTree = "<group>"; };
+		856D93891BE838D500D4218A /* GiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftModel.m; sourceTree = "<group>"; };
+		856D938B1BE8399B00D4218A /* RunesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunesModel.h; sourceTree = "<group>"; };
+		856D938C1BE8399B00D4218A /* RunesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunesModel.m; sourceTree = "<group>"; };
+		856D938E1BE83A0200D4218A /* SumAbilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityModel.h; sourceTree = "<group>"; };
+		856D938F1BE83A0200D4218A /* SumAbilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityModel.m; sourceTree = "<group>"; };
+		856D93911BE83A1C00D4218A /* BestGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupModel.h; sourceTree = "<group>"; };
+		856D93921BE83A1C00D4218A /* BestGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupModel.m; sourceTree = "<group>"; };
+		856D93941BE8494A00D4218A /* TuWanNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanNetManager.h; sourceTree = "<group>"; };
+		856D93951BE8494A00D4218A /* TuWanNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanNetManager.m; sourceTree = "<group>"; };
+		856D93971BE8495A00D4218A /* DuoWanNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWanNetManager.h; sourceTree = "<group>"; };
+		856D93981BE8495A00D4218A /* DuoWanNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWanNetManager.m; sourceTree = "<group>"; };
+		856D939A1BE8496E00D4218A /* XiMaNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaNetManager.h; sourceTree = "<group>"; };
+		856D939B1BE8496E00D4218A /* XiMaNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaNetManager.m; sourceTree = "<group>"; };
 		85B0AE8A1BE777C7009BED31 /* TuWanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanModel.h; sourceTree = "<group>"; };
 		85B0AE8B1BE777C7009BED31 /* TuWanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanModel.m; sourceTree = "<group>"; };
 		85B0AE8D1BE77915009BED31 /* RankingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListModel.h; sourceTree = "<group>"; };
@@ -205,6 +226,12 @@
 			children = (
 				3886C0BC1BD74AFE0014E661 /* BaseNetManager.h */,
 				3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */,
+				856D93941BE8494A00D4218A /* TuWanNetManager.h */,
+				856D93951BE8494A00D4218A /* TuWanNetManager.m */,
+				856D93971BE8495A00D4218A /* DuoWanNetManager.h */,
+				856D93981BE8495A00D4218A /* DuoWanNetManager.m */,
+				856D939A1BE8496E00D4218A /* XiMaNetManager.h */,
+				856D939B1BE8496E00D4218A /* XiMaNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -289,6 +316,14 @@
 				85B0AEB51BE78C33009BED31 /* ZBItemModel.m */,
 				85B0AEB71BE78C71009BED31 /* ItemDetailModel.h */,
 				85B0AEB81BE78C71009BED31 /* ItemDetailModel.m */,
+				856D93881BE838D500D4218A /* GiftModel.h */,
+				856D93891BE838D500D4218A /* GiftModel.m */,
+				856D938B1BE8399B00D4218A /* RunesModel.h */,
+				856D938C1BE8399B00D4218A /* RunesModel.m */,
+				856D938E1BE83A0200D4218A /* SumAbilityModel.h */,
+				856D938F1BE83A0200D4218A /* SumAbilityModel.m */,
+				856D93911BE83A1C00D4218A /* BestGroupModel.h */,
+				856D93921BE83A1C00D4218A /* BestGroupModel.m */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
@@ -459,8 +494,10 @@
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				85B0AE9E1BE77F92009BED31 /* HeroVIdeoModel.m in Sources */,
+				856D93931BE83A1C00D4218A /* BestGroupModel.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				85B0AEA71BE78653009BED31 /* HeroGiftModel.m in Sources */,
+				856D938D1BE8399B00D4218A /* RunesModel.m in Sources */,
 				3835CFB71BD90E150024CA48 /* ViewController.m in Sources */,
 				85B0AEAA1BE78706009BED31 /* HeroChangeModel.m in Sources */,
 				85B0AE8C1BE777C7009BED31 /* TuWanModel.m in Sources */,
@@ -473,9 +510,14 @@
 				85B0AEA11BE78385009BED31 /* HeroCZModel.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
+				856D938A1BE838D500D4218A /* GiftModel.m in Sources */,
+				856D93901BE83A0200D4218A /* SumAbilityModel.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				856D939C1BE8496E00D4218A /* XiMaNetManager.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
+				856D93961BE8494A00D4218A /* TuWanNetManager.m in Sources */,
 				85B0AE951BE77C73009BED31 /* FreeHeroModel.m in Sources */,
+				856D93991BE8495A00D4218A /* DuoWanNetManager.m in Sources */,
 				85B0AE9B1BE77D99009BED31 /* HeroSkinModel.m in Sources */,
 				85B0AE981BE77CEC009BED31 /* AllHeroModel.m in Sources */,
 			);
