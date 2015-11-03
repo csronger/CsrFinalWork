@@ -25,7 +25,7 @@
     NSString *path = @"http://cache.tuwan.com/app/";
     NSDictionary *params = @{@"appid":@1, @"class":@"heronews", @"mod":@"八卦", @"appver":@2.1};;
     [BaseNetManager GET:path parameters:params completionHandler:^(id responseObj, NSError *error) {
-        TuWanModel *model = [TuWanModel objectWithKeyValues:responseObj];
+//   TuWanModel *model = [TuWanModel objectWithKeyValues:responseObj];
         DDLogVerbose(@"...........");
     }];
     

@@ -53,7 +53,7 @@ static AFHTTPSessionManager *manager = nil;
 //方法作用：把path和params拼接起来，把字符串中的中文转化为  百分号  形式。因为有的服务器不接受中文编码
 + (id)GET:(NSString *)path parameters:(NSDictionary *)params completionHandler:(void(^)(id responseObj, NSError *error))complete{
     //转中文编码为百分号形式
-    path = [self percentPathWithPath:path params:params];
+    //path = [self percentPathWithPath:path params:params];
     //打印网络请求， DDLog  与  NSLog 功能一样
     DDLogVerbose(@"Request Path: %@, Params:%@", path, params);
     return [[self sharedAFManager] GET:path parameters:params success:^void(NSURLSessionDataTask * task, id responseObject) {
