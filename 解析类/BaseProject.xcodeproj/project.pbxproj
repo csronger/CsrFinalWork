@@ -124,6 +124,8 @@
 		85B0AEB51BE78C33009BED31 /* ZBItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBItemModel.m; sourceTree = "<group>"; };
 		85B0AEB71BE78C71009BED31 /* ItemDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailModel.h; sourceTree = "<group>"; };
 		85B0AEB81BE78C71009BED31 /* ItemDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailModel.m; sourceTree = "<group>"; };
+		85C293071BE8BE1900C93225 /* DuoWanRequestsPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuoWanRequestsPath.h; sourceTree = "<group>"; };
+		85C293091BE8D9DE00C93225 /* DuoWanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuoWanModel.h; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -232,6 +234,7 @@
 				856D93981BE8495A00D4218A /* DuoWanNetManager.m */,
 				856D939A1BE8496E00D4218A /* XiMaNetManager.h */,
 				856D939B1BE8496E00D4218A /* XiMaNetManager.m */,
+				85C293071BE8BE1900C93225 /* DuoWanRequestsPath.h */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				856D938F1BE83A0200D4218A /* SumAbilityModel.m */,
 				856D93911BE83A1C00D4218A /* BestGroupModel.h */,
 				856D93921BE83A1C00D4218A /* BestGroupModel.m */,
+				85C293091BE8D9DE00C93225 /* DuoWanModel.h */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
